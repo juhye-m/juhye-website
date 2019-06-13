@@ -1,11 +1,78 @@
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+/* Global */
+
+.container{
+width: 80%;
+margin: auto;
+overflow:hidden;
 }
 
-#particles-js
-{
-  height: 100%;
-  background: #2626;
+ul{
+margin:0;
+padding:0;
+}
+
+header{
+padding-top:10px;
+min-height:20px;
+padding-bottom:10px;
+}
+
+header a{
+color:#f8f8ff;
+text-decoration:none;
+text-transform: uppercase;
+font-size:20px;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0 20px 0 20px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current a{
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0px;
+  color: #f8f8ff;
+}
+
+#particles-js{
+  height:100%;
+  background:#2626;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#box .box{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+
+footer{
+  padding:10px;
+  margin-top:20px;
+  background-color:#ececec;
+  text-align:center;
 }
