@@ -207,10 +207,10 @@ header #branding h1{
 }
 
 footer{
-  padding:2px;
+  padding:20px;
   background-color:#ececec;
   text-align:center;
-  font-size:15px;
+/*   font-size:15px; */
 }
 
 /* Social Media */
