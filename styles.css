@@ -55,6 +55,7 @@ header #branding h1{
 
 #particles-js{
   height:100%;
+  position:relative;
   background:#2626;
 }
 
