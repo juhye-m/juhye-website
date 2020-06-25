@@ -276,10 +276,10 @@ $blueColor:rgba(33,150,243,1); */
 .icon-3d {
   padding: 10px;
 
-  animation: icon3d 200ms 10;
+  animation: icon3d 200ms infinite;
   color: #fff;
   &:hover {
-    animation: icon3d 200ms infinite;
+    animation: none;
   }
 }
 
