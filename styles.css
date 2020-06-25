@@ -22,7 +22,7 @@ padding-bottom:10px;
 }
 
 header a{
-color:#f8f8ff;
+color:#fff;
 text-decoration:none;
 text-transform: uppercase;
 font-size:20px;
@@ -54,7 +54,7 @@ header #branding{
 
 header #branding h1{
   margin:0px;
-  color: #f8f8ff;
+  color: #fff;
 }
 
 #particles-js{
@@ -154,7 +154,7 @@ canvas {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: #fff;
   z-index: 1;
   transition: top .5s ease;
 }
@@ -182,8 +182,8 @@ canvas {
   width: 200px;
   padding: 12px 48px;
   text-align: center;
-  color: white;
-  border: solid 2px white;
+  color: #fff;
+  border: solid 2px #fff;
   z-index: 1;
 }
 
@@ -243,13 +243,17 @@ footer{
 /* $redColor: rgba(244,67,54,1);
 $blueColor:rgba(33,150,243,1); */
 
+#stream{
+    margin-top: 15vh;
+    text-align: center;
+    color: #fff;
+}
+
 .flex-center {
   width: 50%;
   min-height: 10vh;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 15vh;
+  margin: auto;
   position: relative;
   z-index: 0;
   
