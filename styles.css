@@ -251,7 +251,6 @@ $blueColor:rgba(33,150,243,1); */
   width: 100%;
   min-height: 10vh;
   text-align: center;
-  background: #000;
   
 /*   display: -webkit-box;
   display: -webkit-flex;
@@ -274,7 +273,7 @@ $blueColor:rgba(33,150,243,1); */
   color: #fff;
 }
 
-.icon-3d:hover {
+.icon-3d a:hover {
     animation: icon3d 200ms infinite;
   }
 
