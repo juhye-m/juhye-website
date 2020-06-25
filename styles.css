@@ -234,9 +234,9 @@ footer{
   color: #fe6c60;
 }
 
-/* .fa:hover {
+.fa:hover {
     opacity: 0.7;
-} */
+}
 
 /* Socials */
 
@@ -272,11 +272,14 @@ $blueColor:rgba(33,150,243,1); */
 
   animation: icon3d 200ms 10;
   color: #fff;
-}
-
-.icon-3d a:hover {
+  &:hover {
     animation: icon3d 200ms infinite;
   }
+}
+
+/* .icon-3d a:hover {
+    animation: icon3d 200ms infinite;
+  } */
 
 @keyframes icon3d {
   0% {
