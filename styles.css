@@ -234,9 +234,9 @@ footer{
   color: #fe6c60;
 }
 
-.fa:hover {
+/* .fa:hover {
     opacity: 0.7;
-}
+} */
 
 /* Socials */
 
@@ -280,18 +280,18 @@ $blueColor:rgba(33,150,243,1); */
 
 @keyframes icon3d {
   0% {
-    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+    text-shadow: 5px 4px #fd6360, -5px -6px #fcff57;
   }
   25% {
-    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+    text-shadow: -5px -6px #fd6360, 5px 4px #fcff57;
   }
   50% {
-    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+    text-shadow: 5px -4px #fd6360, -8px 4px #fcff57;
   }
   75% {
-    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+    text-shadow: -8px -4px #fd6360, -5px -4px #fcff57;
   }
   100% {
-    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+    text-shadow: -5px 0 #fd6360, 5px -4px #fcff57;
   }
 }
