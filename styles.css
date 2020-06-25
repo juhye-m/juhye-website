@@ -247,7 +247,9 @@ $blueColor:rgba(33,150,243,1); */
   width: 50%;
   min-height: 10vh;
   text-align: center;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15vh;
   position: relative;
   z-index: 0;
   
