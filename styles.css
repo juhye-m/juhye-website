@@ -59,14 +59,18 @@ header #branding h1{
 
 #particles-js{
   height:100vh;
+  position : absolute;
+  z-index:-1;
 /*   background:#1F6465; */
 /*   background:#2626; */
   background: linear-gradient(to bottom, #fd6360 0%, #fcff57 100%)
 }
 
 canvas {
-    display: block;
-    vertical-align: bottom;
+  position:absolute; 
+  width:100%;
+  height:100%; 
+  z-index:-1;
 }
 
 * {
