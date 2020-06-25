@@ -62,7 +62,11 @@ header #branding h1{
 /*   background:#1F6465; */
 /*   background:#2626; */
   background: linear-gradient(to bottom, #fd6360 0%, #fcff57 100%)
-  
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
 }
 
 * {
