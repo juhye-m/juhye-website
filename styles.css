@@ -276,7 +276,7 @@ $blueColor:rgba(33,150,243,1); */
 .icon-3d {
   padding: 10px;
 
-  animation: icon3d 200ms 5s;
+  animation: icon3d 200ms 5;
   color: #fff;
   &:hover {
     animation: none;
