@@ -2,38 +2,77 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="particles.js"></script>
+  <script src="text.js"></script>
   <link rel="icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/26737-200.png">
-  <title>JuHye Mun | Welcome</title>
-  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-  <style>
-    body {font-family: 'Amatic SC';font-size: 22px; background-color:#2626;}
-  </style>
+<title>JuHye Mun | Welcome</title>
+  
+<style>
+  body {font-family: 'Quicksand', sans-serif;font-size: 22px; background-color:#fff; height:100%; text: #fff}
+</style>
 </head>
-<body>
 
-  <header>
-        <div class="container">
-          <div id="branding">
-          <h1>JuHye Mun</h1>
-          </div>
-          <nav>
+<body>
+  <div id="particles-js">
+  <!-- <script type="text/javascript" src="particles.js"></script> -->
+  <script type="text/javascript" src="app.js"></script>
+    <header>
+      <div class="container">
+        <div id="branding">
+        <!-- <h1>JuHye Mun</h1> -->
+        </div>
+        <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://github.com/juhye-m">GitHub</a></li>
             <li class="current"><a href="music.html">Music</a></li>
-            <li><a href="aboutme.html">About</a></li>
+            <!-- <li><a href="aboutme.html">About</a></li> -->
           </ul>
+        </nav>
+        <div id="impt_links">
+          <nav>
+            <ul>
+              <li><a href="src/mun_resume_hacks.pdf">Resume</a></li>
+            </ul>
           </nav>
-         </div>
-  </header>
-
-  <h1>Music</h1>
-  <div id="playlists">
-    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/bigger-love/1512885758?app=music"></iframe>
+        </div>
+        
+      </div>
+    </header>
+    <div id="stream">
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <div id='text'>
+        <div>
+          <h1>JuHye Mun</h1>
+        </div>
+      </div> -->
+      
+      <div id="bio">
+        <h2>Original Music</h2>
+      </div>
+      <div class="flex-center">
+          <a href="https://open.spotify.com/artist/3xjFSJEkVSZvWdhMK4aOPl?si=kJkJLanAR_2eD_mLaCM76w" class="fa fa-spotify fa-4x icon-3d"></a>
+          <a href="https://music.apple.com/us/artist/juhye/1523673761" class="fa fa-apple fa-4x icon-3d"></a>
+<!--           <a href="https://geo.music.apple.com/us/artist/carly-rae-jepsen/284363062?itsct=music_box&amp;itscg=30200&amp;app=music&amp;ls=1"></a> -->
+          <a href="https://soundcloud.com/juhye-mun" class="fa fa-soundcloud fa-4x icon-3d"></a>
+          <a href="https://www.youtube.com/watch?v=TUJrNhSZVoQ" class="fa fa-youtube-play fa-4x icon-3d"></a>
+      </div> 
+    </div>
+<!--     <div id="follow">
+      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6sFIWsNpZYqfjUpaCgueju&amp;size=detail&amp;theme=light&amp;show-count=0" height="56" scrolling="yes" frameborder="0" allowtransparency="true"></iframe>
+      <script src="https://apis.google.com/js/platform.js"></script>
+      <div class="g-ytsubscribe" data-channelid="UCUGx6OaaOrj6E7fQs8qfn2Q" data-layout="full" data-count="hidden"></div>
+    </div> -->
   </div>
-  
-<p></p>
+
+<footer>
+<!--   <p>JuHye Mun, Copyright &copy; 2019</p> -->
+  <a href="https://www.youtube.com/channel/UCUGx6OaaOrj6E7fQs8qfn2Q?view_as=subscriber" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/juhye.m/" class="fa fa-instagram"></a>
+  <a href="https://soundcloud.com/juhye-mun" class="fa fa-soundcloud"></a>
+</footer>
 
 </body>
 </html>
